@@ -28,11 +28,18 @@ body {
     
     
 }
-.img-star {
+/* .img-star {
     background-image: url("../images/icon-star.svg");
-    background-repeat: repeat-x;
+     background-repeat: space round;
+    
     min-height: 16px;
-    width: 85px
+    width: 105px;
+    
+} */
+
+.img-star-con {
+    display: flex;
+    gap: 8px
 }
 .ratings-con {
     display: flex;
