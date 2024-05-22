@@ -42,6 +42,15 @@ body {
     gap: 8px;
     padding-block-end: 0.53rem;
 }
+
+.profile-con>h2 {
+    font-size: 1rem;
+    color: var(--white);
+}
+.profile-con>p {
+    font-size: 1rem;
+    color: var(--soft-pink);
+}
 .ratings-con {
     display: flex;
     flex-direction: column;
@@ -101,11 +110,15 @@ body {
     background-color: var(--very-dark-magenta);
     border-radius: 5px;
     padding-inline: 2rem;
-    padding-block: 2rem;
+    padding-block-start: 2.4rem;
 }
 
 .testmonial-profile-con {
     display: flex;
+    gap: 23px;
+}
+.testmonial-profile-con>img {
+   border-radius: 30px;
 }
 .title {
     /* Mobile */
