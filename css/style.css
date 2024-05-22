@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     width: 100%;
     margin-inline: 1rem;
-   
+    margin-block-end: 3.3rem;
     gap: 20px
 }
 .rating-best {
@@ -78,15 +78,15 @@ body {
     font-size: 1.09rem;
     
 }
-.rating-report {
-    padding-block: 1.1rem 0.4rem;
-    padding-inline: 2rem;
-    font-size: 1.09rem;
-}
 .rating-reviews>p  {
     padding-inline-start: 0.8rem;
     padding-inline-end: 0.14rem;
     
+}
+.rating-report {
+    padding-block: 1.1rem 0.4rem;
+    padding-inline: 2rem;
+    font-size: 1.09rem;
 }
 
 .title {
