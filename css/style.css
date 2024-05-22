@@ -37,9 +37,9 @@ body {
 
 .title {
     /* Mobile */
-    font-size: 2.3rem;
+    font-size: 2.32rem;
     padding-inline: 2.5rem;
-    padding-block: 5.1rem;
+    padding-block-start: 5.1rem;
     line-height: 0.9;
 }
 .title-con {
