@@ -42,13 +42,17 @@ body {
     gap: 8px;
     padding-block-end: 0.53rem;
 }
-
+.profile-con {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+}
 .profile-con>h2 {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: var(--white);
 }
 .profile-con>p {
-    font-size: 1rem;
+    font-size: 1.09rem;
     color: var(--soft-pink);
 }
 .ratings-con {
@@ -108,7 +112,7 @@ body {
 .testmonials-con>div {
     block-size: 15.5rem;
     background-color: var(--very-dark-magenta);
-    border-radius: 5px;
+    border-radius: 10px;
     padding-inline: 2rem;
     padding-block-start: 2.4rem;
 }
