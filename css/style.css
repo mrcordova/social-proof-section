@@ -25,17 +25,13 @@ body {
 
    
     padding-block-end: 6.55rem;
+
+    /* Desktop */
+  
     
     
 }
-/* .img-star {
-    background-image: url("../images/icon-star.svg");
-     background-repeat: space round;
-    
-    min-height: 16px;
-    width: 105px;
-    
-} */
+
 
 .img-star-con {
     display: flex;
@@ -65,25 +61,41 @@ body {
 
     /* Desktop */
     flex: 1;
+
+    padding-block-start: 9rem;
+    padding-inline-start: 2rem;
+    gap: 17px;
+    
 }
 
 .rating-best {
+    /* align-self: flex-end; */
     padding-block: 1.1rem 0.4rem;
     padding-inline: 2rem;
     font-size: 1.09rem;
+
+    /* Desktop */
+    margin-inline-start: 6rem;
 }
 
 .ratings-con>div {
   
     /* gap: 12px; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
 
+    /* flex-direction: column; */
+    align-items: center;
+    
     border-radius: 8px;
     background-color: var(--light-grayish-magenta);
     color: var(--very-dark-magenta);
     /* background-color: red; */
+    
+    /* Desktop */
+    flex-wrap: wrap;
+    inline-size: 27.8rem;
+    block-size: 3.5rem;
+    background-color: red;
 
 }
 
@@ -102,9 +114,13 @@ body {
     
 }
 .rating-report {
+    /* align-self: center; */
     padding-block: 1.1rem 0.4rem;
     padding-inline: 2rem;
     font-size: 1.09rem;
+
+    /* Desktop */
+    margin-inline-start: 3rem;
 }
 .testmonials-con {
     margin-inline: 1rem;
