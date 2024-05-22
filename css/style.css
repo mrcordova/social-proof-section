@@ -110,17 +110,46 @@ body {
 }
 
 .testmonials-con>div {
-    block-size: 15.5rem;
+    block-size: 15.524rem;
+
+    
+    display: flex;
+    flex-direction: column;
     background-color: var(--very-dark-magenta);
     border-radius: 10px;
     padding-inline: 2rem;
     padding-block-start: 2.4rem;
+    height: 100%;
+    padding-block-end: 1.9rem;
+}
+.testmonials-con>div:nth-child(2) {
+    /* padding-block-end: 2.8rem; */
+    block-size: 15.6rem;
+    /* background-color: red; */
 }
 
 .testmonial-profile-con {
     display: flex;
     gap: 23px;
+    margin-block-end: 1.8rem;
+   
 }
+
+.testmonial-profile-con + q {
+    color: var(--white);
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.35;
+    /* flex: 1; */
+}
+.testmonial-profile-con:nth-child(2) + q {
+    color: red;
+   
+}
+
+
+
+
 .testmonial-profile-con>img {
    border-radius: 30px;
 }
