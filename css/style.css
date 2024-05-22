@@ -1,0 +1,6 @@
+.img-star {
+    background-image: url("../images/icon-star.svg");
+    background-repeat: repeat-x;
+    min-height: 16px;
+    width: 85px
+}
