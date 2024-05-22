@@ -45,7 +45,7 @@ body {
 .profile-con {
     display: flex;
     flex-direction: column;
-    line-height: 1.4;
+    line-height: 1.20;
 }
 .profile-con>h2 {
     font-size: 1.05rem;
