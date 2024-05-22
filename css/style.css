@@ -6,6 +6,28 @@
     --white: hsl(0, 0%, 100%);
 }
 
+html, body {
+    height: 100%;
+}
+body {
+    display: grid;
+    place-content: safe center;
+    align-items: center;
+} 
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: safe center;
+    align-items: safe center;
+    align-content: safe center;
+
+    /* block-size: 30rem; */
+    /* margin-block: 20rem; */
+    
+    
+}
 .img-star {
     background-image: url("../images/icon-star.svg");
     background-repeat: repeat-x;
