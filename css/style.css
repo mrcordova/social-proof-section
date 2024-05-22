@@ -93,11 +93,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    min-width: 0;
 }
 
 .testmonials-con>div {
     block-size: 15.5rem;
     background-color: var(--very-dark-magenta);
+    border-radius: 5px;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+}
+
+.testmonial-profile-con {
+    display: flex;
 }
 .title {
     /* Mobile */
