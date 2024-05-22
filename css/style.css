@@ -122,16 +122,16 @@ body {
     height: 100%;
     padding-block-end: 1.9rem;
 }
-.testmonials-con>div:nth-child(2), .testmonials-con>div:last-child {
-    padding-block-start: 2.55rem;
+.testmonials-con>div:nth-child(2) {
+    padding-block-start: 2.5rem;
     padding-block-end: 2rem;
   
 }
-/* .testmonials-con>div:last-child {
+ .testmonials-con>div:last-child {
     padding-block-start: 2.55rem;
-    padding-block-end: 2rem;
+    padding-block-end: 1.9rem;
 
-/* } */ 
+ } 
 
 .testmonial-profile-con {
     display: flex;
