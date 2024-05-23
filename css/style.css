@@ -232,7 +232,7 @@ body {
     text-align: center;
     /* margin-block-end: 2.5rem; */
 
-    margin-block-end: clamp(2.5rem, -0.8803rem + 3.7559vw, 0);
+    margin-block-end: clamp(0rem, 3.3803rem + -3.7559vw, 2.5rem);
     /* Desktop */
     flex: 1;
     /* margin-block-end: 0rem; */
