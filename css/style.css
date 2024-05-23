@@ -78,6 +78,12 @@ body {
     margin-inline-start: 6rem;
 }
 
+.rating-best>p {
+    /* Desktop */
+    align-self: flex-start;
+    padding-inline-start: 1.85rem;
+}
+
 .ratings-con>div {
   
     /* gap: 12px; */
@@ -109,8 +115,13 @@ body {
     
 }
 .rating-reviews>p  {
+    /* Mobile */
     padding-inline-start: 0.8rem;
     padding-inline-end: 0.14rem;
+
+    /* Desktop */
+    padding-inline-start: 1.85rem;
+    align-self: flex-start;
     
 }
 .rating-report {
@@ -121,6 +132,12 @@ body {
 
     /* Desktop */
     margin-inline-start: 3rem;
+}
+
+.rating-report>p {
+    /* Desktop */
+    align-self: flex-start;
+    padding-inline-start: 1.85rem;
 }
 .testmonials-con {
     margin-inline: 1rem;
@@ -191,7 +208,9 @@ body {
     margin-block-end: 2.5rem;
 
     /* Desktop */
-        flex: 1;
+    flex: 1;
+   
+
 }
 .title-para {
     /* Mobile */
