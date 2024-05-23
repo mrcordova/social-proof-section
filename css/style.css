@@ -143,7 +143,7 @@ body {
     padding-inline: 2rem;
     font-size: 1.09rem;
 
-    margin-inline-start:  clamp(0rem, -0.3838rem + 1.6376vw, 1.09rem);
+    margin-inline-start: clamp(0rem, -1.0563rem + 4.5070vw, 3rem);
     /* Desktop */
     /* margin-inline-start: 3rem; */
 }
