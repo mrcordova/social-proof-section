@@ -60,7 +60,8 @@ body {
     /* gap: 20px; */
 
     
-    padding-block-start: clamp(0rem, 12.1690rem + -13.5211vw, 9rem);
+    /* padding-block-start: clamp(0rem, 12.1690rem + -13.5211vw, 9rem); */
+    padding-block-start: clamp(0rem, -3.1690rem + 13.5211vw, 9rem);
     /* padding-inline-start: clamp(0rem, 2.7042rem + -3.0047vw, 2rem); */
     padding-inline-start: clamp(0rem, -0.7042rem + 3.0047vw, 2rem);
     gap: clamp(1.0625rem, 1.3160rem + -0.2817vw, 1.25rem);
