@@ -61,7 +61,8 @@ body {
 
     
     padding-block-start: clamp(0rem, 12.1690rem + -13.5211vw, 9rem);
-    padding-inline-start: clamp(0rem, 2.7042rem + -3.0047vw, 2rem);
+    /* padding-inline-start: clamp(0rem, 2.7042rem + -3.0047vw, 2rem); */
+    padding-inline-start: clamp(0rem, -0.7042rem + 3.0047vw, 2rem);
     gap: clamp(1.0625rem, 1.3160rem + -0.2817vw, 1.25rem);
     /* Desktop */
     flex: 1;
@@ -190,16 +191,18 @@ body {
     padding-block-start: 2.5rem;
     padding-block-end: 2rem;
 
+    margin-block-start:  clamp(0rem, -0.2817rem + 1.2019vw, 0.8rem);
     /* Desktop */
-    margin-block-start: 0.8rem;
+    /* margin-block-start: 0.8rem; */
   
 }
  .testmonials-con>div:last-child {
     padding-block-start: 2.55rem;
     padding-block-end: 1.9rem;
 
+    margin-block-start: clamp(0rem, -0.6338rem + 2.7042vw, 1.8rem);
     /* Desktop */
-    margin-block-start: 1.8rem
+    /* margin-block-start: 1.8rem */
 
  } 
 
@@ -214,7 +217,7 @@ body {
     color: var(--white);
     font-size: 1rem;
     text-align: left;
-    line-height: 1.35;
+    /* line-height: 1.35; */
     /* flex: 1; */
 }
 
@@ -296,6 +299,9 @@ body {
 }
 
 @media (min-width: 760px) {
+    .testmonial-profile-con {
+        line-height: 1.35;
+    }
     .title-con {
         text-align: left;
     }
