@@ -14,12 +14,13 @@ body {
     place-content: safe center;
     align-items: center;
 
-    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg'), var(--white);
+    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
     background-repeat: no-repeat;
    
 } 
 
 .content {
+        /* background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg'), var(--white); */
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -257,10 +258,12 @@ body {
 @media (min-width: 760px) {
 
     body {
-        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg'), var(--white);
+        /* background-color: var(--white); */
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
         background-repeat: no-repeat;
         
     }
+    
 
     .rating-best, .rating-report, .rating-reviews{
         justify-content: flex-start;
