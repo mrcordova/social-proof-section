@@ -146,6 +146,11 @@ body {
     flex-wrap: wrap;
     gap: 15px;
     min-width: 0;
+
+    /* Desktop */
+    padding-block: 2.5rem;
+    gap: 32px;
+    margin-inline: 0rem;
 }
 
 .testmonials-con>div {
@@ -160,15 +165,26 @@ body {
     padding-block-start: 2.4rem;
     height: 100%;
     padding-block-end: 1.9rem;
+
+    /* Desktop */
+    inline-size: 21.7rem;
+    block-size: 14.5rem;
+    
 }
 .testmonials-con>div:nth-child(2) {
     padding-block-start: 2.5rem;
     padding-block-end: 2rem;
+
+    /* Desktop */
+    margin-block-start: 0.8rem;
   
 }
  .testmonials-con>div:last-child {
     padding-block-start: 2.55rem;
     padding-block-end: 1.9rem;
+
+    /* Desktop */
+    margin-block-start: 1.8rem
 
  } 
 
@@ -229,6 +245,7 @@ body {
     padding-inline: 0.75rem;
     font-size: 1.11rem;
     line-height: 1.4;
+    /* text-align: center; */
 
     /* Desktop */
     padding-inline: 9.8rem 5rem;
