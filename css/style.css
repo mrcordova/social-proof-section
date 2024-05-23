@@ -201,12 +201,13 @@ body {
     padding-block-start: 5.1rem;
     line-height: 0.9;
     color: var(--very-dark-magenta);
+    text-align: center;
     
 
     /* Desktop */
     padding-inline: 9.8rem 10.4rem;
-    padding-block-start: 3.5rem;
-    /* padding-block-end: 3rem; */
+    padding-block-start: 5.4rem;
+    padding-block-end: 1.3rem;
     font-size: 3.25rem;
     text-align: left;
 }
@@ -228,6 +229,11 @@ body {
     padding-inline: 0.75rem;
     font-size: 1.11rem;
     line-height: 1.4;
+
+    /* Desktop */
+    padding-inline: 9.8rem 5rem;
+    text-align: left;
+    padding-block-start: 0.5rem;
 
     color: var(--dark-grayish-magenta);
     
