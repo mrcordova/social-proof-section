@@ -111,7 +111,7 @@ body {
     flex-wrap: wrap;
     /* inline-size: 27.8rem; */
     /* block-size: 3.5rem; */
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -126,11 +126,12 @@ body {
 }
 .rating-reviews>p  {
     /* Mobile */
-    padding-inline-start: 0.8rem;
+    /* padding-inline-start: 0.8rem; */
     padding-inline-end: 0.14rem;
 
+    padding-inline-start: clamp(0.8rem, 0.4303rem + 1.5775vw, 1.85rem);
     /* Desktop */
-    padding-inline-start: 1.85rem;
+    /* padding-inline-start: 1.85rem; */
     align-self: flex-start;
     
 }
@@ -140,26 +141,31 @@ body {
     padding-inline: 2rem;
     font-size: 1.09rem;
 
+    margin-inline-start:  clamp(0rem, -0.3838rem + 1.6376vw, 1.09rem);
     /* Desktop */
-    margin-inline-start: 3rem;
+    /* margin-inline-start: 3rem; */
 }
 
 .rating-report>p {
+    padding-inline-start: clamp(0rem, -0.6514rem + 2.7793vw, 1.85rem);
     /* Desktop */
     align-self: flex-start;
-    padding-inline-start: 1.85rem;
+    /* padding-inline-start: 1.85rem; */
 }
 .testmonials-con {
-    margin-inline: 1rem;
+    /* margin-inline: 1rem; */
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    /* gap: 15px; */
     min-width: 0;
 
+    padding-block: clamp(0rem, -0.8803rem + 3.7559vw, 2.5rem);
+    margin-inline: clamp(0rem, 1.3521rem + -1.5023vw, 1rem);
+    gap: clamp(0.9375rem, 0.5634rem + 1.5962vw, 2rem);
     /* Desktop */
-    padding-block: 2.5rem;
-    gap: 32px;
-    margin-inline: 0rem;
+    /* padding-block: 2.5rem; */
+    /* gap: 32px; */
+    /* margin-inline: 0rem; */
 }
 
 .testmonials-con>div {
@@ -246,7 +252,7 @@ body {
     text-align: center;
     /* margin-block-end: 2.5rem; */
 
-    margin-block-end: clamp(0rem, 3.3803rem + -3.7559vw, 2.5rem);
+    margin-block-end: clamp(0rem, -0.8803rem + 3.7559vw, 2.5rem);
     /* Desktop */
     flex: 1;
     /* margin-block-end: 0rem; */
