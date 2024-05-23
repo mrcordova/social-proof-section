@@ -13,6 +13,10 @@ body {
     display: grid;
     place-content: safe center;
     align-items: center;
+
+    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg'), var(--white);
+    background-repeat: no-repeat;
+   
 } 
 
 .content {
@@ -26,7 +30,7 @@ body {
    
     padding-block-end: 6.55rem;
 
-    /* Desktop */
+
   
     
     
@@ -54,52 +58,39 @@ body {
 .ratings-con {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     margin-inline: 1rem;
     margin-block-end: 3.2rem; 
-    /* gap: 20px; */
 
     
-    /* padding-block-start: clamp(0rem, 12.1690rem + -13.5211vw, 9rem); */
     padding-block-start: clamp(0rem, -3.1690rem + 13.5211vw, 9rem);
-    /* padding-inline-start: clamp(0rem, 2.7042rem + -3.0047vw, 2rem); */
     padding-inline-start: clamp(0rem, -0.7042rem + 3.0047vw, 2rem);
     gap: clamp(1.0625rem, 1.3160rem + -0.2817vw, 1.25rem);
-    /* Desktop */
     flex: 1;
 
-    /* padding-block-start: 9rem; */
-    /* padding-inline-start: 2rem; */
-    /* gap: 17px; */
+   
     
 }
 
 .rating-best {
-    /* align-self: flex-end; */
     padding-block: 1.1rem 0.4rem;
     padding-inline: 2rem;
     font-size: 1.09rem;
     justify-content: center;
 
     margin-inline-start: clamp(0rem, -2.1127rem + 9.0141vw, 6rem);
-    /* Desktop */
-    /* margin-inline-start: 6rem; */
+ 
 }
 
 .rating-best>p {
     padding-inline-start: clamp(0rem, -0.6514rem + 2.7793vw, 1.85rem);
-    /* Desktop */
     align-self: flex-start;
-    /* padding-inline-start: 1.85rem; */
     
 }
 
 .ratings-con>div {
   
-    /* gap: 12px; */
     display: flex;
 
-    /* flex-direction: column; */
     align-items: center;
     
     border-radius: 8px;
@@ -107,21 +98,15 @@ body {
     color: var(--very-dark-magenta);
     inline-size: clamp(20.3rem, 17.6592rem + 11.2676vw, 27.8rem);
     block-size: clamp(3.5rem, 5.2577rem + -1.9531vw, 4.8rem);
-    /* background-color: red; */
-    /* inline-size: 20.3rem; */
-    /* block-size: 4.8rem; */
-    /* Desktop */
+  
     flex-wrap: wrap;
-    /* inline-size: 27.8rem; */
-    /* block-size: 3.5rem; */
-    /* background-color: red; */
+   
 
 }
 
 
 
 .rating-reviews {
-    /* justify-self: flex-start; */
     padding-block: 1.1rem 0.4rem;
     padding-inline: 2rem;
     font-size: 1.09rem;
@@ -129,51 +114,41 @@ body {
     
 }
 .rating-reviews>p  {
-    /* Mobile */
-    /* padding-inline-start: 0.8rem; */
+   
     padding-inline-end: 0.14rem;
 
     padding-inline-start: clamp(0.8rem, 0.4303rem + 1.5775vw, 1.85rem);
-    /* Desktop */
-    /* padding-inline-start: 1.85rem; */
+   
     align-self: flex-start;
     
 }
 .rating-report {
-    /* align-self: center; */
     padding-block: 1.1rem 0.4rem;
     padding-inline: 2rem;
     font-size: 1.09rem;
     justify-content: center;
     margin-inline-start: clamp(0rem, -1.0563rem + 4.5070vw, 3rem);
-    /* Desktop */
-    /* margin-inline-start: 3rem; */
+  
 }
 
 .rating-report>p {
     padding-inline-start: clamp(0rem, -0.6514rem + 2.7793vw, 1.85rem);
-    /* Desktop */
     align-self: flex-start;
-    /* padding-inline-start: 1.85rem; */
+ 
 }
 .testmonials-con {
-    /* margin-inline: 1rem; */
     display: flex;
     flex-wrap: wrap;
-    /* gap: 15px; */
     min-width: 0;
 
     padding-block: clamp(0rem, -0.8803rem + 3.7559vw, 2.5rem);
     margin-inline: clamp(0rem, 1.3521rem + -1.5023vw, 1rem);
     gap: clamp(0.9375rem, 0.5634rem + 1.5962vw, 2rem);
-    /* Desktop */
-    /* padding-block: 2.5rem; */
-    /* gap: 32px; */
-    /* margin-inline: 0rem; */
+ 
 }
 
 .testmonials-con>div {
-    /* block-size: 15.524rem; */
+   
 
     
     display: flex;
@@ -185,7 +160,6 @@ body {
     height: 100%;
     padding-block-end: 1.9rem;
 
-    /* Desktop */
     max-inline-size: 21.7rem;
     max-block-size: 14.9rem;
     
@@ -195,8 +169,7 @@ body {
     padding-block-end: 2rem;
 
     margin-block-start:  clamp(0rem, -0.2817rem + 1.2019vw, 0.8rem);
-    /* Desktop */
-    /* margin-block-start: 0.8rem; */
+    
   
 }
  .testmonials-con>div:last-child {
@@ -204,8 +177,7 @@ body {
     padding-block-end: 1.9rem;
 
     margin-block-start: clamp(0rem, -0.6338rem + 2.7042vw, 1.8rem);
-    /* Desktop */
-    /* margin-block-start: 1.8rem */
+ 
 
  } 
 
@@ -220,8 +192,7 @@ body {
     color: var(--white);
     font-size: 1rem;
     text-align: left;
-    /* line-height: 1.35; */
-    /* flex: 1; */
+   
 }
 
 
@@ -232,53 +203,34 @@ body {
    border-radius: 30px;
 }
 .title {
-    /* Mobile */
-    /* font-size: 2.32rem; */
-    /* padding-inline: 2.5rem; */
-    /* padding-block-start: 5.1rem; */
+   
     line-height: 0.9;
     color: var(--very-dark-magenta);
-    /* text-align: center; */
     
 
     font-size: clamp(2.32rem, 1.9925rem + 1.3972vw, 3.25rem);
     padding-inline: clamp(2.5rem, -0.0704rem + 10.9671vw, 9.8rem) clamp(2.5rem, -0.2817rem + 11.8685vw, 10.4rem);
     padding-block-start: clamp(5.1rem, 4.9944rem + 0.4507vw, 5.4rem);
     padding-block-end: clamp(0rem, -0.4577rem + 1.9531vw, 1.3rem);
-    /* line-height: 0.9; */
-    /* Desktop */
-    /* padding-inline: 9.8rem 10.4rem; */
-    /* padding-block-start: 5.4rem; */
-    /* padding-block-end: 1.3rem; */
-    /* font-size: 3.25rem; */
-    /* text-align: left; */
+
 }
 .title-con {
-    /* Mobile */
     text-align: center;
-    /* margin-block-end: 2.5rem; */
 
-    /* margin-block-end: clamp(0rem, -0.8803rem + 3.7559vw, 2.5rem); */
     margin-block-end: clamp(0rem, 3.3803rem + -3.7559vw, 2.5rem);
-    /* Desktop */
     flex: 1;
-    /* margin-block-end: 0rem; */
+   
    
 
 }
 .title-para {
-    /* Mobile */
-    /* padding-block-start: 1.2rem; */
-    /* padding-inline: 0.75rem; */
+   
     font-size: 1.11rem;
     
-    /* text-align: center; */
+    
     padding-block-start: clamp(0.5rem, 1.4465rem + -1.0516vw, 1.2rem);
     padding-inline: clamp(0.75rem, -2.4366rem + 13.5962vw, 9.8rem) clamp(0.75rem, -0.7465rem + 6.3850vw, 5rem);
-    /* Desktop */
-    /* padding-inline: 9.8rem 5rem; */
-    /* text-align: left; */
-    /* padding-block-start: 0.5rem; */
+    
 
     color: var(--dark-grayish-magenta);
     
@@ -304,8 +256,13 @@ body {
 
 @media (min-width: 760px) {
 
+    body {
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg'), var(--white);
+        background-repeat: no-repeat;
+        
+    }
+
     .rating-best, .rating-report, .rating-reviews{
-        /* align-self: flex-start; */
         justify-content: flex-start;
     }
     .testmonial-profile-con {
