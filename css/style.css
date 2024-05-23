@@ -16,6 +16,8 @@ body {
 
     background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
     background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0vw top 0vh, right 0vw bottom 0vh;
    
 } 
 
@@ -260,7 +262,8 @@ body {
     body {
         /* background-color: var(--white); */
         background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
-        background-repeat: no-repeat;
+        background-repeat: no-repeat, no-repeat;
+        background-position: left 0vw top 0vh, right 0vw bottom 0vh;
         
     }
     
